@@ -28,11 +28,9 @@ def add_supply_to_winter_holidays(holiday_hash, supply)
   holiday_hash[:winer].each do |winter_holiday, existing_supply|
       existing_supply << supply
   end
-  binding.pry
 
 end
-
-
+binding.pry
 def add_supply_to_memorial_day(holiday_hash, supply)
   # again, holiday_hash is the same as the ones above
   # add the second argument to the memorial day array
