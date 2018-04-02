@@ -65,8 +65,9 @@ def all_supplies_in_holidays(holiday_hash)
           name = holiday_name_string.each {|name| name.capitalize!}.join(" ")
           puts "#{name}: "
           puts supply
-
-
+      end
+  end
+  
 end
 
 def all_holidays_with_bbq(holiday_hash)
